@@ -55,7 +55,8 @@ class simumasterActor(pms:simumasterActor.Pms) extends Actor{
       order = Some(sender)
       val wrt = system.actorOf(paraWriterActor.props(fileName(this.ofile)), wname)
       writer = Some(wrt)
-      if (cores > 50) cores = 50
+      val ncore = if (cores > 50) 50 else cores
+      cores = ncore/2
       println("starting writer")
       getGlist(chr.chrname.apply(0))
       this.tlen = glists.length
@@ -185,6 +186,5 @@ class simumasterActor(pms:simumasterActor.Pms) extends Actor{
     writer.foreach(_ ! PoisonPill)
     order.foreach(_ ! "done")
     println(utils.currentTimeIn+s"calculating is done -simumasterActor")
-
   }
 }

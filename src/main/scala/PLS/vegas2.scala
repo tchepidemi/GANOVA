@@ -320,7 +320,7 @@ object vegas2 {
     val comm6 = Process(vegas2,new File(gPms.tp)).!
     val rs = fileOper.toArrays(gPms.tp+ogname+"_vegas2out.out"," ").drop(1).toArray.map(i =>Array(i(7).toFloat,i(9).toFloat)).apply(0)
     val dir = new java.io.File(gPms.tp)
-    dir.list.filter(i => i.indexOf(ogname) >= 0).map(i => new java.io.File(gPms.tp+i)).foreach(_.delete())
+    dir.list.filter(i => i.indexOf(ogname) >= 0).foreach(i => scala.sys.process.Process("rm -r " + gPms.tp+i).!)//.map(i => new java.io.File(gPms.tp+i)).foreach(i => scala.sys.process.Process("rm -r " + i.toString).!) //_.delete())
     rs
   }
   def vegas(glist:Array[String],n:Int = 1,spheno:DenseMatrix[Float] => DenseMatrix[Float] = setPheno()) = {
