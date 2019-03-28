@@ -77,7 +77,7 @@ class simucalculateActor(pms:Pms) extends Actor{
       for (h <- H) {
         var i = 0
         while (i < times) {
-          val Ys = vegas2.setPhenoT(h,0,0.5f)(X)
+          val Ys = vegas2.setPhenoT(h,1,0.5f)(X)
           val sr = glist(3) +"_"+i+"_"+h
           //val future2: Future[(String,Array[Float])] = ask(vgs,vegas2Actor.inp(sr, glists,Ys)).mapTo[(String,Array[Float])]
           vgs ! vegas2Actor.inp(sr, glists, Ys)
