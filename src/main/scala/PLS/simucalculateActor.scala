@@ -88,9 +88,7 @@ class simucalculateActor(pms:Pms) extends Actor{
             val Y = calculation.standardization(Yp)
             // single column of Y
             //val Yss = calculation.standardization(Ys)
-
           }
-
 
           val plsP = plsCalc.ngdofP(X, Ys, k)._2 ++ calculation.pcr(X,Ys.toDenseVector,k)
           val wstr = (glists ++ plsP).mkString("\t")
@@ -105,7 +103,6 @@ class simucalculateActor(pms:Pms) extends Actor{
 //            }
 //            case Failure(t) => println("An error has occured: " + t.getMessage)
 //          }
-
           //val rs = (glists ++ vegas2.vegas(glist, 3, vegas2.setPheno2(h, 2)) :+ h).mkString("\t")
 //          val rs = (glists ++ vegas2.vegas(glist, 3, vegas2.setPhenoT(h, 0,0.5f)) :+ h).mkString("\t")
 //            writer.foreach(_ ! myParallel.paraWriterActor.WriteStr(rs))
