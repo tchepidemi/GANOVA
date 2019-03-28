@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a85c488-4470-4626-a14d-f47e90f307ae" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/scala/PLS/simucalculateActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/PLS/simucalculateActor.scala" afterDir="false" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/scala/PLS/simumasterActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/PLS/simumasterActor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/PLS/vegas2Actor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/PLS/vegas2Actor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/myParallel/paraWriterActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/myParallel/paraWriterActor.scala" afterDir="false" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/scala/PLS/simumasterActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/PLS/simumasterActor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/PLS/vegas2Actor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/PLS/vegas2Actor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/myParallel/paraWriterActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/myParallel/paraWriterActor.scala" afterDir="false" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.19.0" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <file leaf-file-name="simucalculateActor.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simucalculateActor.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="687">
+              <caret line="115" column="7" lean-forward="true" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
+=======
+      <file leaf-file-name="simucalculateActor.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simucalculateActor.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="104" column="7" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+=======
+      <file leaf-file-name="simucalculateActor.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simucalculateActor.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="104" column="7" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+              <folding>
+                <element signature="e#13#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/run.scala">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <state relative-caret-position="98">
+              <caret line="246" column="77" selection-start-line="246" selection-start-column="77" selection-end-line="246" selection-end-column="77" />
+=======
+            <state relative-caret-position="369">
+              <caret line="256" column="10" selection-start-line="256" selection-start-column="10" selection-end-line="256" selection-end-column="10" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+=======
+            <state relative-caret-position="369">
+              <caret line="256" column="10" selection-start-line="256" selection-start-column="10" selection-end-line="256" selection-end-column="10" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+              <folding>
+                <element signature="e#13#29#0" expanded="true" />
+                <element signature="e#990#3326#0" />
+                <element signature="e#3459#4466#0" />
+                <element signature="e#4708#6360#0" />
+                <element signature="e#6444#7318#0" />
+                <element signature="e#7379#9057#0" />
+                <element signature="e#9126#9515#0" />
+                <element signature="e#9588#10048#0" />
+                <element signature="e#10204#10988#0" />
+                <element signature="e#11106#11708#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vegas2Actor.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/vegas2Actor.scala">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <state relative-caret-position="521">
+              <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+              <folding>
+                <element signature="e#47#81#0" expanded="true" />
+              </folding>
+=======
+            <state relative-caret-position="446">
+              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+=======
+            <state relative-caret-position="446">
+              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vegas2.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/vegas2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="323" column="5" selection-start-line="323" selection-start-column="5" selection-end-line="323" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paraWriterActor.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/myParallel/paraWriterActor.scala">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <state relative-caret-position="681">
+              <caret line="86" column="22" lean-forward="true" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+              <folding>
+                <element signature="e#23#72#0" expanded="true" />
+              </folding>
+=======
+            <state relative-caret-position="-124">
+              <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+=======
+            <state relative-caret-position="-124">
+              <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simumasterActor.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simumasterActor.scala">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <state relative-caret-position="2857">
+              <caret line="154" column="29" lean-forward="true" selection-start-line="154" selection-start-column="29" selection-end-line="154" selection-end-column="29" />
+=======
+            <state relative-caret-position="2765">
+              <caret line="150" column="62" selection-start-line="150" selection-start-column="62" selection-end-line="150" selection-end-column="62" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+=======
+            <state relative-caret-position="2765">
+              <caret line="150" column="62" selection-start-line="150" selection-start-column="62" selection-end-line="150" selection-end-column="62" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plssimuWriter.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/plssimuWriter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+<<<<<<< HEAD
+<<<<<<< HEAD
+              <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+=======
+              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+=======
+              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plsCalc.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/plsCalc.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16146">
+              <caret line="707" column="15" selection-start-line="707" selection-start-column="15" selection-end-line="707" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>simumasterActor</find>
+      <find>2018-10</find>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <find>pc</find>
+=======
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+=======
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/PLS/run.scala" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/src/test/scala/PLS/calculationTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/PLS/vegas2Actor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/PLS/simumasterActor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/myParallel/paraWriterActor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/PLS/simucalculateActor.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="285" />
+=======
+=======
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        <option value="$PROJECT_DIR$/src/main/scala/PLS/simucalculateActor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/PLS/vegas2Actor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/myParallel/paraWriterActor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/PLS/simumasterActor.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+<<<<<<< HEAD
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+=======
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+    <option name="width" value="1440" />
+    <option name="height" value="823" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GANOVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GANOVA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GANOVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GANOVA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GANOVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GANOVA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GANOVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GANOVA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GANOVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GANOVA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="myParallel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GANOVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GANOVA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="PLS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GANOVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GANOVA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GANOVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GANOVA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GANOVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GANOVA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="PLS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+<<<<<<< HEAD
+<<<<<<< HEAD
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553421966188" />
+  </component>
+=======
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+=======
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="GANOVA" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="ganova [file:/Users/liuqun/Nutstore/workspace/GANOVA/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="GANOVA-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="4236163829" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1075804536" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="2719859779" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/OneDrive/workspace/GANOVA" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a85c488-4470-4626-a14d-f47e90f307ae" name="Default" comment="" />
+      <created>1547643811707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547643811707</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="DB Browser" order="3" />
+      <window_info anchor="bottom" id="SBT Console" order="14" weight="0.32859176" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32859176" />
+      <window_info anchor="right" id="sbt" order="7" weight="0.32960597" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="bottom" id="DB Execution Console" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="16" side_tool="true" weight="0.32859176" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32859176" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32859176" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" weight="0.32859176" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32859176" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957627" visible="true" weight="0.33619457" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="17" weight="0.32859176" />
+      <window_info anchor="bottom" id="Statistic" order="11" weight="0.32859176" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32859176" />
+      <window_info id="Structure" order="1" sideWeight="0.5042373" side_tool="true" weight="0.17167382" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32859176" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32859176" />
+      <window_info id="UI Designer" order="6" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Palette" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="10" />
+=======
+=======
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+      <window_info anchor="bottom" id="Statistic" order="11" weight="0.32859176" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32859176" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32859176" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32859176" />
+      <window_info id="UI Designer" order="6" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957627" visible="true" weight="0.3018598" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Palette" order="9" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32859176" />
+      <window_info id="Structure" order="1" sideWeight="0.5042373" side_tool="true" weight="0.17167382" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="DB Browser" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="sbt" order="7" weight="0.32960597" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="17" weight="0.32859176" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info anchor="right" id="Capture Analysis" order="10" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32859176" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32859176" />
+      <window_info anchor="bottom" id="Event Log" order="16" side_tool="true" weight="0.32859176" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" weight="0.32859176" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32859176" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="DB Execution Console" order="12" />
+      <window_info anchor="bottom" id="SBT Console" order="14" weight="0.32859176" />
+<<<<<<< HEAD
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+=======
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32859176" />
+      <window_info anchor="bottom" id="DB Execution Console" order="12" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32859176" />
+      <window_info anchor="bottom" id="SBT Console" order="14" weight="0.32859176" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32859176" />
+      <window_info anchor="right" id="sbt" order="7" weight="0.32960597" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="17" weight="0.32859176" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info id="DB Browser" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32859176" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" weight="0.32859176" />
+      <window_info anchor="bottom" id="Event Log" order="16" side_tool="true" weight="0.32859176" />
+      <window_info anchor="bottom" id="Statistic" order="11" weight="0.32859176" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957627" visible="true" weight="0.14814815" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32859176" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32859176" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32859176" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Structure" order="1" sideWeight="0.5042373" side_tool="true" weight="0.17167382" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+    </layout-to-restore>
+  </component>
+<<<<<<< HEAD
+<<<<<<< HEAD
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simucalculateActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="102" column="13" lean-forward="true" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+          <folding>
+            <element signature="e#13#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/myParallel/paraWriterActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding>
+            <element signature="e#23#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simuSnpActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simuSnpCalActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="16" />
+=======
+  <component name="editorHistoryManager">
+=======
+  <component name="editorHistoryManager">
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/pcaActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/calculation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5776">
+          <caret line="318" column="40" selection-start-line="318" selection-start-column="40" selection-end-line="318" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/PLS/calculationTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="150" column="25" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/plsCalc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16146">
+          <caret line="707" column="15" selection-start-line="707" selection-start-column="15" selection-end-line="707" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/Ractor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="21" />
+<<<<<<< HEAD
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+=======
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/snpCalcDispatchActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="3059">
+          <caret line="133" column="9" lean-forward="true" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
+=======
+=======
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        <state relative-caret-position="81">
+          <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simuSnpActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
+<<<<<<< HEAD
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+=======
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/snpCalcActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="1656">
+=======
+        <state relative-caret-position="23">
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+=======
+        <state relative-caret-position="23">
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+          <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/Ractor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="21" />
+=======
+=======
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simuSnpCalActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/plssimuWriter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+<<<<<<< HEAD
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+=======
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simumasterActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="1863">
+          <caret line="88" column="50" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/plssimuWriter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="55" column="2" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/plsCalc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16261">
+          <caret line="707" column="15" selection-start-line="707" selection-start-column="15" selection-end-line="707" selection-end-column="15" />
+=======
+=======
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        <state relative-caret-position="2857">
+          <caret line="154" column="29" selection-start-line="154" selection-start-column="29" selection-end-line="154" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/vegas2Actor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/run.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="246" column="77" selection-start-line="246" selection-start-column="77" selection-end-line="246" selection-end-column="77" />
+          <folding>
+            <element signature="e#13#29#0" expanded="true" />
+            <element signature="e#990#3326#0" />
+            <element signature="e#3459#4466#0" />
+            <element signature="e#4708#6360#0" />
+            <element signature="e#6444#7318#0" />
+            <element signature="e#7379#9057#0" />
+            <element signature="e#9126#9515#0" />
+            <element signature="e#9588#10048#0" />
+            <element signature="e#10204#10988#0" />
+            <element signature="e#11106#11708#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/vegas2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="323" column="5" selection-start-line="323" selection-start-column="5" selection-end-line="323" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/myParallel/paraWriterActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simucalculateActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="104" column="7" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
+          <folding>
+            <element signature="e#13#56#0" expanded="true" />
+          </folding>
+<<<<<<< HEAD
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+=======
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/myParallel/BufferWriterActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/setDispatchActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/mysqlFunc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/parFunction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/utils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/gseaDispatchActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalanlp/breeze_2.12/srcs/breeze_2.12-0.13.1-sources.jar!/breeze/numerics/package.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/GOquery.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2024">
+          <caret line="91" column="56" selection-start-line="91" selection-start-column="56" selection-end-line="91" selection-end-column="56" />
+<<<<<<< HEAD
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/setDispatchActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="480">
+          <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/mysqlFunc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/parFunction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+=======
+        <state relative-caret-position="644">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/ensembl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/plssimuWriter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/Ractor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/fileOper.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/gseaCalcActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1748">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/PLS/calculationTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3477">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/PLS/plsCalcTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.github.fommil.netlib/core/jars/core-1.1.2.jar!/com/github/fommil/netlib/LAPACK.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="1235" column="25" selection-start-line="1235" selection-start-column="25" selection-end-line="1235" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalanlp/breeze_2.12/srcs/breeze_2.12-0.13.1-sources.jar!/breeze/linalg/functions/eig.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/snpCalcOrderActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1541">
+          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/snpCalcActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/utils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="23">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+=======
+        <state relative-caret-position="6877">
+          <caret line="313" column="47" selection-start-line="313" selection-start-column="47" selection-end-line="313" selection-end-column="47" />
+          <folding>
+            <element signature="e#13#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/plsCalc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16146">
+          <caret line="707" column="15" selection-start-line="707" selection-start-column="15" selection-end-line="707" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/snpCalcDispatchActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/snpCalc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simuSnpActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simuSnpCalActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/gseaDispatchActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalanlp/breeze_2.12/srcs/breeze_2.12-0.13.1-sources.jar!/breeze/numerics/package.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/GOquery.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2024">
+          <caret line="91" column="56" selection-start-line="91" selection-start-column="56" selection-end-line="91" selection-end-column="56" />
+=======
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/myParallel/actorMessage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="644">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/ensembl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+=======
+        <state relative-caret-position="513">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/vegas2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="690">
+          <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/gseaCalcActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1748">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/PLS/plsCalcTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.github.fommil.netlib/core/jars/core-1.1.2.jar!/com/github/fommil/netlib/LAPACK.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="1235" column="25" selection-start-line="1235" selection-start-column="25" selection-end-line="1235" selection-end-column="25" />
+=======
+        <state relative-caret-position="442">
+          <caret line="323" column="5" selection-start-line="323" selection-start-column="5" selection-end-line="323" selection-end-column="5" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/pcaActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simucalculateActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="104" column="7" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
+          <folding>
+            <element signature="e#13#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/vegas2Actor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/run.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="256" column="10" selection-start-line="256" selection-start-column="10" selection-end-line="256" selection-end-column="10" />
+          <folding>
+            <element signature="e#13#29#0" expanded="true" />
+            <element signature="e#990#3326#0" />
+            <element signature="e#3459#4466#0" />
+            <element signature="e#4708#6360#0" />
+            <element signature="e#6444#7318#0" />
+            <element signature="e#7379#9057#0" />
+            <element signature="e#9126#9515#0" />
+            <element signature="e#9588#10048#0" />
+            <element signature="e#10204#10988#0" />
+            <element signature="e#11106#11708#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simumasterActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2765">
+          <caret line="150" column="62" selection-start-line="150" selection-start-column="62" selection-end-line="150" selection-end-column="62" />
+=======
+        <state relative-caret-position="644">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/ensembl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/plssimuWriter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/Ractor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/fileOper.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/gseaCalcActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="530">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+=======
+        <state relative-caret-position="1748">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/PLS/calculationTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3477">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/PLS/plsCalcTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.github.fommil.netlib/core/jars/core-1.1.2.jar!/com/github/fommil/netlib/LAPACK.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="1235" column="25" selection-start-line="1235" selection-start-column="25" selection-end-line="1235" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalanlp/breeze_2.12/srcs/breeze_2.12-0.13.1-sources.jar!/breeze/linalg/functions/eig.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/snpCalcOrderActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1541">
+          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/snpCalcActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalanlp/breeze_2.12/srcs/breeze_2.12-0.13.1-sources.jar!/breeze/linalg/functions/eig.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/snpCalcOrderActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1541">
+          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+=======
+        <state relative-caret-position="6877">
+          <caret line="313" column="47" selection-start-line="313" selection-start-column="47" selection-end-line="313" selection-end-column="47" />
+          <folding>
+            <element signature="e#13#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/plsCalc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16146">
+          <caret line="707" column="15" selection-start-line="707" selection-start-column="15" selection-end-line="707" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/snpCalcDispatchActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/snpCalc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+<<<<<<< HEAD
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simuSnpActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simuSnpCalActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/gPms.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/pcaActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/calculation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5776">
+          <caret line="318" column="40" selection-start-line="318" selection-start-column="40" selection-end-line="318" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/PLS/calculationTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="150" column="25" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/plsCalc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16146">
+          <caret line="707" column="15" selection-start-line="707" selection-start-column="15" selection-end-line="707" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/Ractor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/snpCalcDispatchActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simuSnpActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/snpCalcActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simuSnpCalActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/plssimuWriter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simumasterActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2857">
+          <caret line="154" column="29" lean-forward="true" selection-start-line="154" selection-start-column="29" selection-end-line="154" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/vegas2Actor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding>
+            <element signature="e#47#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/run.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="246" column="77" selection-start-line="246" selection-start-column="77" selection-end-line="246" selection-end-column="77" />
+          <folding>
+            <element signature="e#13#29#0" expanded="true" />
+            <element signature="e#990#3326#0" />
+            <element signature="e#3459#4466#0" />
+            <element signature="e#4708#6360#0" />
+            <element signature="e#6444#7318#0" />
+            <element signature="e#7379#9057#0" />
+            <element signature="e#9126#9515#0" />
+            <element signature="e#9588#10048#0" />
+            <element signature="e#10204#10988#0" />
+            <element signature="e#11106#11708#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/vegas2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="323" column="5" selection-start-line="323" selection-start-column="5" selection-end-line="323" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/myParallel/paraWriterActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="86" column="22" lean-forward="true" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+          <folding>
+            <element signature="e#23#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simucalculateActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="115" column="7" lean-forward="true" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
+          <folding>
+            <element signature="e#13#56#0" expanded="true" />
+          </folding>
+=======
+        <state relative-caret-position="-124">
+          <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/vegas2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="323" column="5" selection-start-line="323" selection-start-column="5" selection-end-line="323" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/pcaActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simucalculateActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="104" column="7" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
+          <folding>
+            <element signature="e#13#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/vegas2Actor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/run.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="256" column="10" selection-start-line="256" selection-start-column="10" selection-end-line="256" selection-end-column="10" />
+          <folding>
+            <element signature="e#13#29#0" expanded="true" />
+            <element signature="e#990#3326#0" />
+            <element signature="e#3459#4466#0" />
+            <element signature="e#4708#6360#0" />
+            <element signature="e#6444#7318#0" />
+            <element signature="e#7379#9057#0" />
+            <element signature="e#9126#9515#0" />
+            <element signature="e#9588#10048#0" />
+            <element signature="e#10204#10988#0" />
+            <element signature="e#11106#11708#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simumasterActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2765">
+          <caret line="150" column="62" selection-start-line="150" selection-start-column="62" selection-end-line="150" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/myParallel/paraWriterActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
+>>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
