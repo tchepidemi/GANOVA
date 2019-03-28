@@ -32,11 +32,7 @@ class vegas2Actor(pms:vegas2Actor.Pms) extends Actor{
     case inp:inp =>{
       //val Y = spheno(X)
       //sender ! (X,Y)
-<<<<<<< HEAD
-      val pval = vegas2.vegasP(inp.gls,inp.Y).mkString("\t")"\t"+inp.inx.split("_").apply(2)
-=======
-      val pval = vegas2.vegasP(inp.gls,inp.Y).mkString("\t")
->>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+      val pval = vegas2.vegasP(inp.gls,inp.Y).mkString("\t")+"\t"+inp.inx.split("_").apply(2)
       simuwriter.foreach(_ ! paraWriterActor.strBf2(inp.inx,pval))
       sender ! (inp.inx,pval)
       // new writer

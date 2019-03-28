@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GANOVA-build.iml" filepath="$PROJECT_DIR$/.idea/modules/GANOVA-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ganova.iml" filepath="$PROJECT_DIR$/.idea/modules/ganova.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GANOVA.iml" filepath="$PROJECT_DIR$/.idea/modules/GANOVA.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GANOVA-build.iml" filepath="$PROJECT_DIR$/.idea/modules/GANOVA-build.iml" />
->>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ganova-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ganova-build.iml" />
     </modules>
   </component>
 </project>

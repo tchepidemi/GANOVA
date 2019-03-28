@@ -59,11 +59,9 @@ class simucalculateActor(pms:Pms) extends Actor{
     val vgs = system.actorSelection("/user/"+glist(3))
     val file = new java.io.File(gPms.tp+glist(3)+".gen")
     if(!file.exists() || file.length() == 0) vegas2.simuFgene(glist)
-
     //    implicit val timeout = 5000 // Timeout for the resolveOne call
 //    system.actorSelection(glist(3)).resolveOne().onComplete {
 //      case Success(actor) => actor ! message
-//
 //      case Failure(ex) =>
 //        val actor = system.actorOf(Props(classOf[ActorClass]), name)
 //        actor ! message
@@ -95,11 +93,7 @@ class simucalculateActor(pms:Pms) extends Actor{
 
 
           val plsP = plsCalc.ngdofP(X, Ys, k)._2 ++ calculation.pcr(X,Ys.toDenseVector,k)
-<<<<<<< HEAD
           val wstr = (glists ++ plsP).mkString("\t")
-=======
-          val wstr = (glist ++ plsP).mkString("\t")
->>>>>>> cbf7099341e679d4d7eac0cd379f5576deb83609
           writer.foreach(_ ! myParallel.paraWriterActor.strBf1(sr,wstr))
           i += 1
 //          rsm += (sr -> plsP.map(_.toString))
