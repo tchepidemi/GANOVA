@@ -130,8 +130,8 @@ class simumasterActor(pms:simumasterActor.Pms) extends Actor{
       //if (glists.length < cores){
       //  cores = glists.length
       //}
-      system.actorOf(vegas2Actor.props(vegas2Actor.Pms(gList.glist)), gList.glist.apply(3))
-
+      //system.actorOf(vegas2Actor.props(vegas2Actor.Pms(gList.glist)), gList.glist.apply(3))
+      system.actorOf(vegas2Actor.props(vegas2Actor.Pms(gList.glist,"user/"+wname)), gList.glist.apply(3))
       val pms = simucalculateActor.Pms(wname,times,H)
       Array(0 until cores:_*).foreach(i => {
         val actr = system.actorOf(simucalculateActor.props(pms),"calc"+i)

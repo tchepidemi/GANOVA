@@ -229,7 +229,7 @@ object run extends App {
     if (false) {
       srt ! simumasterActor.chr(Array("15"))
     }
-//}  
+//}
   // 2018-6-11 15:20 testing different dof calculating method and compare to permutation results of PLS
   if (false) {
     val orderpms = simumasterActor.Pms(gPms.rp + "simuRs.txt", 10, 0.02f.to(0.06f,0.005f).toArray,3,plsCalc.plsAdof _ )
