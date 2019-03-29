@@ -75,6 +75,7 @@ package myParallel
         if(rsm.contains(ry.idx)){
           bw.write(ry.rs + "\t"+rsm(ry.idx)._2+"\t"+"1")
           bw.newLine()
+          println("\n"+"TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"+ry.idx)
           rsm -= ry.idx
         }else{
           rsm += (ry.idx-> (ry.rs,""))
@@ -85,6 +86,7 @@ package myParallel
         if(rsm.contains(ry.idx)){
           bw.write(rsm(ry.idx)._1 + "\t" + ry.rs+"\t"+"2")
           bw.newLine()
+          println("\n"+"TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"+ry.idx)
           rsm -= ry.idx
         }else{
           rsm += (ry.idx-> ("",ry.rs))
@@ -143,6 +145,5 @@ package myParallel
     }
     //      myActor ! riteToBuffer("The Text")
     //  }finally {
-
 
 }

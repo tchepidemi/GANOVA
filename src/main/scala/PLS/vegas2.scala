@@ -301,6 +301,7 @@ object vegas2 {
 
   def vegasP(glist:Array[String],Y:DenseMatrix[Float],ognames:String = utils.getTimeForFile+"_"+scala.util.Random.nextInt(100)) = {
     val gname = glist(3)
+    val rsn = "\""+glist(0)+"\""+" \""+gname+"\""
     val typ = Y.toArray.toSet.size < Y.rows/3
     //val Y = if (typ) convert(Y0,Int) else Y0
     //val r = scala.util.Random
@@ -317,10 +318,11 @@ object vegas2 {
       getPvalF(gPms.tp+ogname+".qassoc")
     }
     val vegas2 = vegas2v2.replace("fullexample",gPms.tp+ogname).replace("example",ogname)
-    val comm6 = Process(vegas2,new File(gPms.tp)).!
-    val rs = fileOper.toArrays(gPms.tp+ogname+"_vegas2out.out"," ").drop(1).toArray.map(i =>Array(i(7).toFloat,i(9).toFloat)).apply(0)
+    val comm6 = Process(vegas2,new File(gPms.tp)).lineStream.filter(i => i.contains(rsn)).apply(0).split(" ")
+    val rsl = comm6.length
     val dir = new java.io.File(gPms.tp)
     dir.list.filter(i => i.indexOf(ogname) >= 0).foreach(i => scala.sys.process.Process("rm -r " + gPms.tp+i).!)//.map(i => new java.io.File(gPms.tp+i)).foreach(i => scala.sys.process.Process("rm -r " + i.toString).!) //_.delete())
+    val rs = Array(comm6(rsl - 3),comm6(rsl-1)).map(_.toFloat)//fileOper.toArrays(gPms.tp+ogname+"_vegas2out.out"," ").drop(1).toArray.map(i =>Array(i(7).toFloat,i(9).toFloat)).apply(0)
     rs
   }
   def vegas(glist:Array[String],n:Int = 1,spheno:DenseMatrix[Float] => DenseMatrix[Float] = setPheno()) = {

@@ -74,7 +74,6 @@ class simuSnpActor(pms:simuSnpActor.Pms) extends Actor {
         //calculaters :+= Some(actr)
         actr ! simuSnpCalActor.n(nis(count))
         Thread.sleep(myParallel.actorMessage.fs.length + 100)
-
         println("processing No." + count)
 
       }
