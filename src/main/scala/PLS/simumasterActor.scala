@@ -134,7 +134,7 @@ class simumasterActor(pms:simumasterActor.Pms) extends Actor{
 
       val pms = simucalculateActor.Pms(wname,times,H)
       Array(0 until cores:_*).foreach(i => {
-        system.actorOf(vegas2Actor.props(vegas2Actor.Pms(gList.glist,"user/"+wname)), gList.glist.apply(3)+i)
+        if( i%2 == 0 )system.actorOf(vegas2Actor.props(vegas2Actor.Pms(gList.glist,"user/"+wname)), gList.glist.apply(3)+i)
         val actr = system.actorOf(simucalculateActor.props(pms),"calc"+i)
         calculaters :+= Some(actr)
         Thread.sleep(1000)

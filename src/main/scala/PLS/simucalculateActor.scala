@@ -127,8 +127,9 @@ class simucalculateActor(pms:Pms) extends Actor{
 
     val file = new java.io.File(gPms.tp+glist(3)+".gen")
     if(!file.exists() || file.length() == 0) vegas2.simuFgene(glist)
-    val actorName = self.path.name.split("calc").apply(1)
-    val vgs:ActorSelection = system.actorSelection("/user/"+glist(3)+actorName)
+    val actorName = self.path.name.split("calc").apply(1).toInt
+    val vactor = if (actorName % 2 == 0) actorName else actorName - 1
+    val vgs:ActorSelection = system.actorSelection("/user/"+glist(3)+vactor)
     val rl = scala.io.Source.fromFile(gPms.tp+glist(3)+"_rsid.txt").getLines.toArray.length
     if(rl > 0) {
       val X = vegas2.vegasX(glist)
