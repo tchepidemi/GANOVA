@@ -76,8 +76,11 @@
       <file leaf-file-name="vegas2.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/vegas2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="316" column="39" lean-forward="true" selection-start-line="316" selection-start-column="39" selection-end-line="316" selection-end-column="39" />
+            <state relative-caret-position="311">
+              <caret line="324" column="61" lean-forward="true" selection-start-line="324" selection-start-column="61" selection-end-line="324" selection-end-column="61" />
+              <folding>
+                <element signature="e#13#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -449,8 +452,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/vegas2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="316" column="39" lean-forward="true" selection-start-line="316" selection-start-column="39" selection-end-line="316" selection-end-column="39" />
+        <state relative-caret-position="311">
+          <caret line="324" column="61" lean-forward="true" selection-start-line="324" selection-start-column="61" selection-end-line="324" selection-end-column="61" />
+          <folding>
+            <element signature="e#13#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
