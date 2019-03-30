@@ -96,7 +96,7 @@ object vegas2 {
     for(i <- ix)y(i) = scala.util.Random.nextInt(2)
     y.map(_.toFloat)
   }
-  def repPheno[T](sampleF:String = gPms.tp+"ex_CEU.out.sample",pheno:Array[T],outf:String) = synchronized{
+  def repPheno[T](sampleF:String = gPms.tp+"ex_CEU.out.sample",pheno:Array[T],outf:String) = this.synchronized{
     val ogenf = outf.replace("sample","gen")
     val genf = sampleF.replace("out.sample","gen")
     val glsf = sampleF.replace("out.sample","glist")
@@ -310,9 +310,9 @@ object vegas2 {
     else repPheno(gPms.tp+gname+".out.sample",pheno = Y.toArray,outf = gPms.tp+ogname+".sample")
 
     val toPed = toPedP.replace("chr 10","chr "+glist(0))
-    val comm3 = Process(toPed.replace("ex_CEU",ogname),new File(gPms.tp)).!
-    val comm4 = Process(tobed.replace("ex_CEU",ogname),new File(gPms.tp)).!
-    val comm5 = Process(snpTest.replace("ex_CEU",ogname), new File(gPms.tp)).!
+    val comm3 = Process(toPed.replace("ex_CEU",ogname),new File(gPms.tp)).!!
+    val comm4 = Process(tobed.replace("ex_CEU",ogname),new File(gPms.tp)).!!
+    val comm5 = Process(snpTest.replace("ex_CEU",ogname), new File(gPms.tp)).!!
     if (typ){
       getPvalF(gPms.tp+ogname+".assoc")
     }else{

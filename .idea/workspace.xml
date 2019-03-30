@@ -2,99 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4257e8ee-fa89-4086-9cca-8308b70f62ab" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hydra.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_chuusai_shapeless_2_12_2_3_2_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_8_4_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_8_4_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_8_4_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_paranamer_2_8_4_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_12_2_8_4_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_jniloader_1_1_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_core_1_1_2_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_native_ref_java_1_1_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_native_system_java_1_1_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_ref_linux_armhf_1_1_natives_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_ref_linux_i686_1_1_natives_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_ref_linux_x86_64_1_1_natives_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_ref_osx_x86_64_1_1_natives_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_ref_win_i686_1_1_natives_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_ref_win_x86_64_1_1_natives_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_system_linux_armhf_1_1_natives_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_system_linux_i686_1_1_natives_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_system_linux_x86_64_1_1_natives_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_system_osx_x86_64_1_1_natives_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_system_win_i686_1_1_natives_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_netlib_native_system_win_x86_64_1_1_natives_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_nscala_time_nscala_time_2_12_0_RC1_2_14_0_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_rwl_jtransforms_2_4_0_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_storm_enroute_scalameter_2_12_0_8_2_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_storm_enroute_scalameter_core_2_12_0_8_2_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_8_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_12_2_5_3_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_12_10_0_9_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_12_10_0_9_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_testkit_2_12_10_0_9_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_12_10_0_9_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_12_2_4_19_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_testkit_2_12_2_4_19_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_testkit_2_12_2_5_3_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_3_1_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_12_0_2_1_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_9_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_httpclient_commons_httpclient_3_1_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_2_5_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_net_commons_net_3_4_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_spray_spray_json_2_12_1_3_2_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__joda_time_joda_time_2_9_4_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__junit_junit_4_8_2_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__mysql_mysql_connector_java_5_1_22_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sf_opencsv_opencsv_2_3_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sourceforge_f2j_arpack_combined_all_0_1_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_lang3_3_4_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_math3_3_2_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_2_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_5_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_ddahl_rscala_2_12_2_4_0_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_joda_joda_convert_1_2_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_mongodb_casbah_commons_2_12_0_RC1_3_1_1_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_mongodb_casbah_core_2_12_0_RC1_3_1_1_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_mongodb_casbah_gridfs_2_12_0_RC1_3_1_1_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_mongodb_casbah_query_2_12_0_RC1_3_1_1_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_mongodb_mongo_java_driver_3_2_2_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_ow2_asm_asm_5_0_4_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_reactivestreams_reactive_streams_1_0_0_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_8_0_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_4_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_6_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_compiler_2_12_3_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_3_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_3_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scalap_2_12_3_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_tools_testing_test_interface_0_5_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_1_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_2_12_0_13_2_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_macros_2_12_0_13_2_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_natives_2_12_0_13_2_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_1_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_5_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_spire_math_spire_2_12_0_13_0_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_spire_math_spire_macros_2_12_0_13_0_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_machinist_2_12_0_6_1_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_macro_compat_2_12_1_1_1_jar.nssyncsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/GANOVA-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/GANOVA-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/GANOVA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/GANOVA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/PLS/simucalculateActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/PLS/simucalculateActor.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/PLS/simumasterActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/PLS/simumasterActor.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/PLS/vegas2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/PLS/vegas2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/myParallel/paraWriterActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/myParallel/paraWriterActor.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -128,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="simucalculateActor.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="simucalculateActor.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simucalculateActor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="255" column="15" selection-start-line="255" selection-start-column="6" selection-end-line="255" selection-end-column="16" />
+            <state relative-caret-position="4873">
+              <caret line="243" column="44" lean-forward="true" selection-start-line="243" selection-start-column="44" selection-end-line="243" selection-end-column="44" />
               <folding>
                 <element signature="e#13#56#0" expanded="true" />
               </folding>
@@ -165,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vegas2.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="vegas2.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/vegas2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1183">
-              <caret line="91" column="3" lean-forward="true" selection-start-line="91" selection-start-column="3" selection-end-line="91" selection-end-column="3" />
+            <state relative-caret-position="252">
+              <caret line="316" column="39" lean-forward="true" selection-start-line="316" selection-start-column="39" selection-end-line="316" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -192,9 +100,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/myParallel/paraWriterActor.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/PLS/vegas2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/PLS/simumasterActor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/PLS/simucalculateActor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/PLS/vegas2.scala" />
       </list>
     </option>
   </component>
@@ -508,13 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/vegas2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1183">
-          <caret line="91" column="3" lean-forward="true" selection-start-line="91" selection-start-column="3" selection-end-line="91" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/run.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2268">
@@ -538,11 +439,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/simucalculateActor.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="255" column="15" selection-start-line="255" selection-start-column="6" selection-end-line="255" selection-end-column="16" />
+        <state relative-caret-position="4873">
+          <caret line="243" column="44" lean-forward="true" selection-start-line="243" selection-start-column="44" selection-end-line="243" selection-end-column="44" />
           <folding>
             <element signature="e#13#56#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PLS/vegas2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="316" column="39" lean-forward="true" selection-start-line="316" selection-start-column="39" selection-end-line="316" selection-end-column="39" />
         </state>
       </provider>
     </entry>
