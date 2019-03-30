@@ -320,7 +320,7 @@ object vegas2 {
     }
     val vegas2 = vegas2v2.replace("fullexample",gPms.tp+ogname).replace("example",ogname)
     var comm6 = Array[String]()
-    val ov = Process(vegas2,new File(gPms.tp)) ! ProcessLogger(line => comm6 = line.filter(i => i.contains(rsn)).apply(0).split(" "))//lineStream.filter(i => i.contains(rsn)).apply(0).split(" ")
+    val ov = Process(vegas2,new File(gPms.tp)) ! ProcessLogger((line:String) => if(line.contains(rsn))comm6 = line.split(" "))//lineStream.filter(i => i.contains(rsn)).apply(0).split(" ")
     val rsl = comm6.length
     val rs = Array(comm6(rsl - 3),comm6(rsl-1)).map(_.toFloat)//fileOper.toArrays(gPms.tp+ogname+"_vegas2out.out"," ").drop(1).toArray.map(i =>Array(i(7).toFloat,i(9).toFloat)).apply(0)
     val dir = new java.io.File(gPms.tp)
