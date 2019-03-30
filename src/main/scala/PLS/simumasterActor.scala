@@ -137,7 +137,7 @@ class simumasterActor(pms:simumasterActor.Pms) extends Actor{
         val actr = system.actorOf(simucalculateActor.props(pms),"calc"+i)
         calculaters :+= Some(actr)
         Thread.sleep(1000)
-        actr !  gList
+        actr ! gList
         count += 1
         println("processing No." + count)
       })

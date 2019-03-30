@@ -124,7 +124,7 @@ class simucalculateActor(pms:Pms) extends Actor{
     val vgs:ActorSelection = system.actorSelection("/user/"+glist(3))
     val file = new java.io.File(gPms.tp+glist(3)+".gen")
     if(!file.exists() || file.length() == 0) vegas2.simuFgene(glist)
-
+    val actorName = self.path.name.split("calc").apply(1)
     val rl = scala.io.Source.fromFile(gPms.tp+glist(3)+"_rsid.txt").getLines.toArray.length
     if(rl > 0) {
       val X = vegas2.vegasX(glist)
@@ -133,13 +133,12 @@ class simucalculateActor(pms:Pms) extends Actor{
         while (i < rl) {
           var j = 0
           while (j < n) {
-              val Y = vegas2.setPheno(h, i, false)(X)
-            val sr = glist(3) + "_" + j + "_" + h+"_"+i
+            val Y = vegas2.setPheno(h, i, false)(X)
+            val sr = glist(3)+actorName + "_" + j + "_" + h+"_"+i
             vgs ! vegas2Actor.inp(sr, glists, Y)
 //              val sr = j + "_" + h + "\t" + i
-
 //              val future2: Future[(String, Array[Float])] = ask(vgs, vegas2Actor.inp(sr, glists, Y)).mapTo[(String, Array[Float])]
-              val plsP = plsCalc.ngdofP(X, Y, k)._2 ++ calculation.pcr(X,Y.toDenseVector,k)
+            val plsP = plsCalc.ngdofP(X, Y, k)._2 ++ calculation.pcr(X,Y.toDenseVector,k)
 //              rsm += (sr -> plsP.map(_.toString))
 //              future2 onComplete {
 //                case Success(f) => {
