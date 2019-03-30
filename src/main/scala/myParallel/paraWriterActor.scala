@@ -73,7 +73,7 @@ package myParallel
       case ry:strBf1 =>{
         //println("PPPPPPPPPPPPPPPPPPPP")
         if(rsm.contains(ry.idx)){
-          bw.write(ry.rs + "\t"+rsm(ry.idx)._2+"\t"+"1")
+          bw.write(ry.rs + "\t"+rsm(ry.idx)._2+"\t"+"2")
           bw.newLine()
           println("\n"+"TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"+ry.idx)
           rsm -= ry.idx
@@ -84,7 +84,7 @@ package myParallel
       case ry:strBf2 =>{
         //println("PPPPPPPPPPPPPPPPPPPP")
         if(rsm.contains(ry.idx)){
-          bw.write(rsm(ry.idx)._1 + "\t" + ry.rs+"\t"+"2")
+          bw.write(rsm(ry.idx)._1 + "\t" + ry.rs+"\t"+"1")
           bw.newLine()
           println("\n"+"TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"+ry.idx)
           rsm -= ry.idx

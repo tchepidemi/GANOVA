@@ -57,8 +57,11 @@ class simucalculateActor(pms:Pms) extends Actor{
     //  system.actorOf(vegas2Actor.props(vegas2Actor.Pms(glist)), glist(3))
     //}
     val vgs = system.actorSelection("/user/"+glist(3))
+    val actorName = self.path.name.split("calc").apply(1)
     val file = new java.io.File(gPms.tp+glist(3)+".gen")
+
     if(!file.exists() || file.length() == 0) vegas2.simuFgene(glist)
+
     //    implicit val timeout = 5000 // Timeout for the resolveOne call
 //    system.actorSelection(glist(3)).resolveOne().onComplete {
 //      case Success(actor) => actor ! message
@@ -80,7 +83,7 @@ class simucalculateActor(pms:Pms) extends Actor{
           var i = 0
           while (i < times) {
             val Ys = vegas2.setPhenoT(h, ii, 0.5f)(X)
-            val sr = glist(3) + "_" + i + "_" + h+"_"+ii
+            val sr = glist(3) + actorName + "_" + i + "_" + h+"_"+ii
             //val future2: Future[(String,Array[Float])] = ask(vgs,vegas2Actor.inp(sr, glists,Ys)).mapTo[(String,Array[Float])]
             vgs ! vegas2Actor.inp(sr, glists, Ys)
             // multiple column of Y
@@ -121,10 +124,11 @@ class simucalculateActor(pms:Pms) extends Actor{
     val glist = glists.slice(0, 4)
 
     var rsm:Map[String,Array[String]] = Map()
-    val vgs:ActorSelection = system.actorSelection("/user/"+glist(3))
+
     val file = new java.io.File(gPms.tp+glist(3)+".gen")
     if(!file.exists() || file.length() == 0) vegas2.simuFgene(glist)
     val actorName = self.path.name.split("calc").apply(1)
+    val vgs:ActorSelection = system.actorSelection("/user/"+glist(3)+actorName)
     val rl = scala.io.Source.fromFile(gPms.tp+glist(3)+"_rsid.txt").getLines.toArray.length
     if(rl > 0) {
       val X = vegas2.vegasX(glist)
