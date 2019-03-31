@@ -123,7 +123,7 @@ class simucalculateActor(pms:Pms) extends Actor{
     var rsm:Map[String,Array[String]] = Map()
     val actorName = self.path.name.split("calc").apply(1).toInt
     val vactor = if (actorName % 2 == 0) actorName else actorName - 1
-    val vgs:ActorSelection = system.actorSelection("/user/"+glist(3)+vactor)//actorName)
+    val vgs:ActorSelection = system.actorSelection("/user/"+glist(3)+actorName)
     //val vgs:ActorSelection = system.actorSelection("/user/"+glist(3))
     val file = new java.io.File(gPms.tp+glist(3)+".gen")
     if(!file.exists() || file.length() == 0) vegas2.simuFgene(glist)
