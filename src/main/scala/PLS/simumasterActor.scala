@@ -118,7 +118,9 @@ class simumasterActor(pms:simumasterActor.Pms) extends Actor{
       order = Some(sender)
       val wrt = system.actorOf(paraWriterActor.props(fileName(this.ofile)), wname)
       writer = Some(wrt)
-      if (cores > 40) cores = 40
+      val ncore = if (cores > 50) 60 else cores
+      cores = ncore/2
+      //if (cores > 40) cores = 40
       this.tlen = cores * gList.n
 
       println("starting writer")
@@ -134,7 +136,9 @@ class simumasterActor(pms:simumasterActor.Pms) extends Actor{
 
       val pms = simucalculateActor.Pms(wname,times,H)
       Array(0 until cores:_*).foreach(i => {
-        if( i%2 == 0 )system.actorOf(vegas2Actor.props(vegas2Actor.Pms(gList.glist,"user/"+wname)), gList.glist.apply(3)+i)
+        //if( i%2 == 0 ){
+        system.actorOf(vegas2Actor.props(vegas2Actor.Pms(gList.glist, "user/" + wname)), gList.glist.apply(3) + i)
+        //}
         val actr = system.actorOf(simucalculateActor.props(pms),"calc"+i)
         calculaters :+= Some(actr)
         Thread.sleep(1000)

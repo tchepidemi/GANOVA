@@ -57,8 +57,11 @@ class simucalculateActor(pms:Pms) extends Actor{
     //  system.actorOf(vegas2Actor.props(vegas2Actor.Pms(glist)), glist(3))
     //}
     val vgs = system.actorSelection("/user/"+glist(3))
+    val actorName = self.path.name.split("calc").apply(1)
     val file = new java.io.File(gPms.tp+glist(3)+".gen")
+
     if(!file.exists() || file.length() == 0) vegas2.simuFgene(glist)
+
     //    implicit val timeout = 5000 // Timeout for the resolveOne call
 //    system.actorSelection(glist(3)).resolveOne().onComplete {
 //      case Success(actor) => actor ! message
@@ -80,7 +83,7 @@ class simucalculateActor(pms:Pms) extends Actor{
           var i = 0
           while (i < times) {
             val Ys = vegas2.setPhenoT(h, ii, 0.5f)(X)
-            val sr = glist(3) + "_" + i + "_" + h+"_"+ii
+            val sr = glist(3) + actorName + "_" + i + "_" + h+"_"+ii
             //val future2: Future[(String,Array[Float])] = ask(vgs,vegas2Actor.inp(sr, glists,Ys)).mapTo[(String,Array[Float])]
             vgs ! vegas2Actor.inp(sr, glists, Ys)
             // multiple column of Y
@@ -121,25 +124,26 @@ class simucalculateActor(pms:Pms) extends Actor{
     val glist = glists.slice(0, 4)
 
     var rsm:Map[String,Array[String]] = Map()
-    val vgs:ActorSelection = system.actorSelection("/user/"+glist(3))
+
     val file = new java.io.File(gPms.tp+glist(3)+".gen")
     if(!file.exists() || file.length() == 0) vegas2.simuFgene(glist)
-
+    val actorName = self.path.name.split("calc").apply(1).toInt
+    val vactor =actorName// if (actorName % 2 == 0) actorName else actorName - 1
+    val vgs:ActorSelection = system.actorSelection("/user/"+glist(3)+vactor)
     val rl = scala.io.Source.fromFile(gPms.tp+glist(3)+"_rsid.txt").getLines.toArray.length
     if(rl > 0) {
       val X = vegas2.vegasX(glist)
       for (h <- H) {
-        var i = 42
+        var i = 0
         while (i < rl) {
           var j = 0
           while (j < n) {
-              val Y = vegas2.setPheno(h, i, false)(X)
-            val sr = glist(3) + "_" + j + "_" + h+"_"+i
+            val Y = vegas2.setPheno(h, i, false)(X)
+            val sr = glist(3)+actorName + "_" + j + "_" + h+"_"+i
             vgs ! vegas2Actor.inp(sr, glists, Y)
 //              val sr = j + "_" + h + "\t" + i
-
 //              val future2: Future[(String, Array[Float])] = ask(vgs, vegas2Actor.inp(sr, glists, Y)).mapTo[(String, Array[Float])]
-              val plsP = plsCalc.ngdofP(X, Y, k)._2 ++ calculation.pcr(X,Y.toDenseVector,k)
+            val plsP = plsCalc.ngdofP(X, Y, k)._2 ++ calculation.pcr(X,Y.toDenseVector,k)
 //              rsm += (sr -> plsP.map(_.toString))
 //              future2 onComplete {
 //                case Success(f) => {
@@ -251,7 +255,7 @@ class simucalculateActor(pms:Pms) extends Actor{
     case gList:gList =>{
       this.calculiting = gList.func
       simugenNo1(gList.glist,gList.n)
-      sender ! done(2)
+      sender ! done(0)
     }
 
 //    case df:dof => {
@@ -285,9 +289,9 @@ class simucalculateActor(pms:Pms) extends Actor{
 //        rsm += (pp.idx -> pp.dt.map(_.toString))
 //      }
 //    }
-    case func:calfunc => {
+  case func:calfunc => {
       this.calculiting = func.func
     }
-    case don:done => sender ! done(2)
+    case don:done => sender ! done(0)
   }
 }

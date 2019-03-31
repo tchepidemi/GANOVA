@@ -34,7 +34,7 @@ class vegas2Actor(pms:vegas2Actor.Pms) extends Actor{
       //sender ! (X,Y)
       val pval = vegas2.vegasP(inp.gls,inp.Y).mkString("\t")+"\t"+inp.inx.split("_").slice(2,4).mkString("\t")//apply(2)
       simuwriter.foreach(_ ! paraWriterActor.strBf2(inp.inx,pval))
-      sender ! (inp.inx,pval)
+      //sender ! (inp.inx,pval)
       // new writer
       //simuwriter.foreach(_ ! simucalculateActor.permp(inp.inx,pval))
     }
