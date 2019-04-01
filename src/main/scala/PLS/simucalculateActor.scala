@@ -132,8 +132,8 @@ class simucalculateActor(pms:Pms) extends Actor{
     if(rl > 0) {
       val X = vegas2.vegasX(glist)
       for (h <- H) {
-        var i = 42
-        while (i < rl) {
+        var i = 0
+        while (i < 42) {
           var j = 0
           while (j < n) {
             val Y = vegas2.setPheno(h, i, false)(X)
