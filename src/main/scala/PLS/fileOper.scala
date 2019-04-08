@@ -100,8 +100,8 @@ import java.io.{FileWriter, PrintWriter}
       //    } else {
 
       val value = values.toArray
-      val sortind = if (ratingCol.length == 1) value.map(_ (ratingCol(0))).zipWithIndex.sortBy(_._1).map(_._2)
-        else value.map(select(_,ratingCol)).zipWithIndex.sortBy(i => (i._1.apply(0),i._1.apply(1))).map(_._2)
+      val sortind = if (ratingCol.length == 1) value.map(_ (ratingCol(0)) toInt).zipWithIndex.sortBy(_._1).map(_._2)
+        else value.map(select(_,ratingCol)).zipWithIndex.sortBy(i => (i._1.apply(0).toInt,i._1.apply(1).toInt)).map(_._2)
       val len = sortind.length
       val outArray = sortind.map(value)// Array.fill[String](len)("")
       outArray.foreach { l => writer.write(l.mkString("\t") + "\n") }
@@ -256,7 +256,7 @@ import java.io.{FileWriter, PrintWriter}
       writeChrMT.close()
 
     }
-    def simpleSeperateChr(filenm:String = gPms.op+"geneLoc.txt",outFile:String = gPms.op+"geneLocChrn.txt",col:Int = 0):Unit={
+    def simpleSeperateChr(filenm:String = gPms.op+"geneLoc.txt",outFile:String = gPms.op+"geneLocChrn.txt",col:Int = 0,splt:String = "\t"):Unit={
       val writeChr1 = new PrintWriter(new FileWriter(outFile.replace("Chrn","chr1")))
       val writeChr2 = new PrintWriter(new FileWriter(outFile.replace("Chrn","chr2")))
       val writeChr3 = new PrintWriter(new FileWriter(outFile.replace("Chrn","chr3")))
@@ -282,7 +282,7 @@ import java.io.{FileWriter, PrintWriter}
       val writeChrX = new PrintWriter(new FileWriter(outFile.replace("Chrn","chrX")))
       val writeChrY = new PrintWriter(new FileWriter(outFile.replace("Chrn","chrY")))
       val writeChrMT = new PrintWriter(new FileWriter(outFile.replace("Chrn","chrMT")))
-      val lines =scala.io.Source.fromFile(filenm).getLines().map(_.split("\t"))
+      val lines =scala.io.Source.fromFile(filenm).getLines().map(_.split(splt))
       for (line <- lines) {
 
         line(col) match {

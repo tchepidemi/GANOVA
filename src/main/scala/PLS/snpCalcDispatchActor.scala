@@ -83,7 +83,7 @@ class snpCalcDispatchActor(pm:dispatcherPms) extends Actor{
       //print("gene length is"+gen.length)
       XX = getX(gen)
       //val ye = if(mcolY.length > 1) genExp(gen(4)) else
-        if (XX.length > shd & (mcolY.length == 1 | genExp.contains(gen(4)))) {
+        if (XX.length > shd & (mcolY.length == 1 | genExp.contains(gen(3)))) {
        // if (XX.length>0 & ) {
         val na = sendCont % nActor
         val calcular = system.actorSelection("/user/calc" + na)
@@ -116,13 +116,13 @@ class snpCalcDispatchActor(pm:dispatcherPms) extends Actor{
       if (cnt < len){
         var gen = gens(cnt)
         XX = getX(gen)
-        while ((XX.length <= shd | (mcolY.length > 1 & !genExp.contains(gen(4)))) & cnt < (len - 1) ) {
+        while ((XX.length <= shd | (mcolY.length > 1 & !genExp.contains(gen(3)))) & cnt < (len - 1) ) {
                  // while (XX.length<1 & cnt < (len - 1) ) {
             cnt += 1
             gen = gens(cnt)
             XX = getX(gen)
         }
-        if(XX.length > shd & (mcolY.length == 1 | genExp.contains(gen(4)))) {
+        if(XX.length > shd & (mcolY.length == 1 | genExp.contains(gen(3)))) {
           if(mcolY.length == 1) {
             sender ! snpCalcActor.Xs(gen, utils.Array2DM(XX, false))
           }else {

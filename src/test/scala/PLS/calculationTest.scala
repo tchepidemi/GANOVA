@@ -1,6 +1,6 @@
 package PLS
 
-import java.io.{FileWriter, PrintWriter}
+import java.io.{BufferedWriter, FileWriter, PrintWriter}
 
 import scala.io.Source._
 import org.scalatest.FlatSpec
@@ -8,9 +8,8 @@ import PLS._
 import PLS.vegas2._
 import PLS.gPms._
 import PLS.plsCalc.ngdofP
-import breeze.linalg._
 import breeze.numerics._
-import breeze.stats._
+import breeze.linalg._
 import breeze.util.JavaArrayOps
 import org.apache.commons.math3.distribution._
 
@@ -98,14 +97,20 @@ class calculationTest extends FlatSpec {
   val xx = scala.io.Source.fromFile(gPms.op+gPms.df).getLines.map(_.split("\t")).take(1).toArray.flatten
   val yy = scala.io.Source.fromFile(gPms.op+gPms.pf).getLines.map(_.split("\t")).take(1).toArray.flatten.map(_.slice(0,15))
   val ee = scala.io.Source.fromFile(gPms.op+gPms.ef).getLines.map(_.split("\t")).take(1).toArray.flatten.map(_.slice(0,15))
-  val mcol =fileOper.intersectCols(xx,yy,ee)
+  val mcol =fileOper.intersectCols(xx,yy)
 
-  val pakt = fileOper.toArrays(gPms.op+gPms.pf).filter(_ (0).contains("AKT")).toArray.apply(1)
+  val pakt = fileOper.toArrays(gPms.op+gPms.pf).filter(_ (0).contains("AKT")).toArray.apply(2)
   val yyy = mcol._2.map(pakt(_).toFloat)
   val xxx = scala.io.Source.fromFile(gPms.op+gPms.df).getLines.map(_.split("\t")).drop(1)
   val pval = xxx.map(i => i(0) -> calculation.linearPval(i,yyy,mcol._1)).toMap
-  //pval.values.toArray.sorted
+  //val aa = scala.io.Source.fromFile(gPms.op+"snp6Annot.csv").getLines.dropWhile(_.startsWith("#")).map(_.split("\" \"").map(_.replace("\"","")).slice(0,2)).map(i => (i(0),i(1))).toMap//pval.values.toArray.sorted
+  //val bw:BufferedWriter  = new BufferedWriter(new FileWriter(file,true))
+  val lpvwriter = new PrintWriter(new FileWriter("rsResultforvegas.txt"))
 
+  val aa = scala.io.Source.fromFile(gPms.op+"snp6Annot.csv").getLines.dropWhile(_.startsWith("#")).
+    map(_.split("\" \"").map(_.replace("\"","")).slice(0,2)).map(i => (i(1),pval.getOrElse(i(0),-1f))).
+    filter(_._2 != -1f).filter(_._1.startsWith("rs")).map(i => i._1 + "\t"+i._2).foreach(lpvwriter.println)
+  lpvwriter.close()
   val egmap = fileOper.toArrays(gPms.op+gPms.egf).map(i => i(0) -> i(1)).toMap
   def getXYZ(df:String,ef:String,pf:String,rf:String,gen:String,pheno:String): Unit ={
     val x = scala.io.Source.fromFile(gPms.op+gPms.df).getLines.map(_.split("\t")).take(1).toArray.flatten
@@ -125,7 +130,7 @@ class calculationTest extends FlatSpec {
     return(xx,yy,gg)
   }
   val c1 = toPedP !
-  val snpCC = scala.io.Source.fromFile(gPms.tp+"ex_CEU.out.gen").getLines.map(_.split(" "))
+  val snpCC = scala.io.Source.fromFile(gPms.tp+"ENSG00000169918.gen").getLines.map(_.split(" "))
   //val sampl = scala.io.Source.fromFile("/Users/qunliu/hapgen2_macosx_intel/ex_CEU.out.sample").getLines.map(_.split(" "))
   //val b = Array(0,1,2)
   //val X = snpCas.map(_.drop(5).map(_.toInt).sliding(3,3).map(_.zip(b).map{case(a,b) => a*b}.reduce(_+_)).toArray)

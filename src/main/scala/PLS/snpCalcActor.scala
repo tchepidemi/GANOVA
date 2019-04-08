@@ -70,6 +70,7 @@ class snpCalcActor(pms:snpCalcPms) extends Actor{
     val pmls = pm.asInstanceOf[Int]//,Int,Int,Array[Seq[Int]],Array[Seq[Int]])]
     val m = X.cols
     val k = min(m,pmls)
+
     val rs = plsCalc.ngdofPvalT(X,Y,k)
     val rss = if(Y.cols >1)rs._2.mkString("\t")+"\t"+ rs._3.mkString("\t")else rs._2.mkString("\t")
     rss
@@ -94,23 +95,23 @@ class snpCalcActor(pms:snpCalcPms) extends Actor{
     }
     case x:Xs => {
       try {
-      val X = x.X
-      if (Y.cols > 1){
-        var rs = "" //x.gene.mkString("\t")
-        for (i <- 0 until Y.cols){
-          val y = Y(::,i).toDenseMatrix.t
-          rs += "\t"+getRes(X,y,calcPms)+"\t"+ calculation.pcr(X,y.toDenseVector,k).mkString("\t")
+        val X = x.X
+        if (Y.cols > 1) {
+          var rs = "" //x.gene.mkString("\t")
+          for (i <- 0 until Y.cols) {
+            val y = Y(::, i).toDenseMatrix.t
+            rs += "\t" + getRes(X, y, calcPms) + "\t" + calculation.pcr(X, y.toDenseVector, k).mkString("\t")
+          }
+          val kk = calcPms.asInstanceOf[Int]
+          val rrs = rs.split("\t").drop(1).map(_.toFloat)
+          val rss = x.gene.mkString("\t") + "\t" + X.cols + "\t" + (rrs.map(_.toString) ++ Array(0 until kk: _*).map(i => calculation.
+            brownTest(Array(rrs(i), rrs(i + kk)), Array(cr)).toString)).mkString("\t") + "\t" + getRes(X, Y, calcPms)
+          writer.foreach(_ ! myParallel.paraWriterActor.WriteStr(rss))
+        } else {
+          val prs = getRes(X, Y, calcPms)
+          var rs = x.gene.mkString("\t") + "\t" + prs
+          writer.foreach(_ ! myParallel.paraWriterActor.WriteStr(rs))
         }
-        val kk = calcPms.asInstanceOf[Int]
-        val rrs = rs.split("\t").drop(1).map(_.toFloat)
-        val rss = x.gene.mkString("\t")+"\t" +X.cols+ "\t" + (rrs.map(_.toString) ++ Array(0 until kk :_*).map(i => calculation.
-          brownTest(Array(rrs(i),rrs(i +  kk )),Array(cr)).toString)).mkString("\t") +"\t" + getRes(X,Y,calcPms)
-        writer.foreach(_ ! myParallel.paraWriterActor.WriteStr(rss))
-      }else {
-        val prs = getRes(X,Y,calcPms)
-        var rs = x.gene.mkString("\t") + "\t"+prs
-        writer.foreach(_ ! myParallel.paraWriterActor.WriteStr(rs))
-      }
       }
       catch {
         case unknown:Throwable => println(x.gene.mkString("\t")+ " " +"Got this unknown exception: " + unknown)
