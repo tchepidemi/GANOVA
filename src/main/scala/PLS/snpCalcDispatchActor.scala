@@ -59,6 +59,7 @@ class snpCalcDispatchActor(pm:dispatcherPms) extends Actor{
     if(mcolY.length > 1) this.genExp = fileOper.toArrays(efile).drop(1).map(i => (i(0),mcolY.map(i(_)).map(_.toFloat))).toMap
     this.loc = snpI.next.apply(2).toInt
     this.cnt = 0
+    //println( "cnt in updateXs =" +cnt)
     this.sendCont = 0
     this.recieveCont = 0
     this.len = gens.length
@@ -79,11 +80,13 @@ class snpCalcDispatchActor(pm:dispatcherPms) extends Actor{
   def startP= {
 
     while (sendCont <= nActor *2) {
+      //println( "cnt =" +cnt)
       val gen = gens(cnt)
+
       //print("gene length is"+gen.length)
       XX = getX(gen)
       //val ye = if(mcolY.length > 1) genExp(gen(4)) else
-        if (XX.length > shd & (mcolY.length == 1 | genExp.contains(gen(3)))) {
+        if (XX.length > shd & (mcolY.length == 1 | genExp.contains(gen(4)))) {
        // if (XX.length>0 & ) {
         val na = sendCont % nActor
         val calcular = system.actorSelection("/user/calc" + na)
@@ -116,13 +119,13 @@ class snpCalcDispatchActor(pm:dispatcherPms) extends Actor{
       if (cnt < len){
         var gen = gens(cnt)
         XX = getX(gen)
-        while ((XX.length <= shd | (mcolY.length > 1 & !genExp.contains(gen(3)))) & cnt < (len - 1) ) {
+        while ((XX.length <= shd | (mcolY.length > 1 & !genExp.contains(gen(4)))) & cnt < (len - 1) ) {
                  // while (XX.length<1 & cnt < (len - 1) ) {
             cnt += 1
             gen = gens(cnt)
             XX = getX(gen)
         }
-        if(XX.length > shd & (mcolY.length == 1 | genExp.contains(gen(3)))) {
+        if(XX.length > shd & (mcolY.length == 1 | genExp.contains(gen(4)))) {
           if(mcolY.length == 1) {
             sender ! snpCalcActor.Xs(gen, utils.Array2DM(XX, false))
           }else {
