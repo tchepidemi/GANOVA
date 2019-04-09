@@ -126,7 +126,7 @@ class snpCalcActor(pms:snpCalcPms) extends Actor{
       try {
         val X = xy.X
         val ny = Y.cols
-        val Ys = if (max(Y) == 0f & min(Y) == 0f) xy.Y else DenseMatrix.horzcat(xy.Y, Y)
+        val Ys = if (max(Y) == 0f & min(Y) == 0f) xy.Y else DenseMatrix.horzcat(Y,xy.Y)
         if (Y.cols > 1) {
           var rs = "" //x.gene.mkString("\t")
           for (i <- 0 until Ys.cols) {
