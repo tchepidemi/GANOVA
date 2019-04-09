@@ -91,15 +91,61 @@ class calculationTest extends FlatSpec {
     writer.close()
     }
 
-
-
-
   val xx = scala.io.Source.fromFile(gPms.op+gPms.df).getLines.map(_.split("\t")).take(1).toArray.flatten
   val yy = scala.io.Source.fromFile(gPms.op+gPms.pf).getLines.map(_.split("\t")).take(1).toArray.flatten.map(_.slice(0,15))
   val ee = scala.io.Source.fromFile(gPms.op+gPms.ef).getLines.map(_.split("\t")).take(1).toArray.flatten.map(_.slice(0,15))
   val mcol =fileOper.intersectCols(xx,yy)
+  val pakt = fileOper.toArrays(gPms.op+gPms.pf).filter(_ (0).contains("AKT")).toArray.apply(1)
+  var c = 1
+  var fln = "gbmsnp6pakt473chr"
+  //Array(1 until 23 :_*).par.map{c =>
+   while (c<23) {
+    val tp = fileOper.toArrays(gPms.op + "gbmsnp6chr" + c + ".txt").toArray
 
-  val pakt = fileOper.toArrays(gPms.op+gPms.pf).filter(_ (0).contains("AKT")).toArray.apply(2)
+    val ap = fileOper.toArrays(gPms.op + "snp6annoNewchr" + c + ".txt")
+    //val gp = fileOper.toArrays(gPms.op + "glist_hg19_chr" + c + ".txt")
+    val gp = fileOper.toArrays(gPms.op + "geneLocchr" + c + ".txt")
+    val yyy = mcol._2.map(pakt(_).toFloat)
+   // val xxx = scala.io.Source.fromFile(gPms.op+gPms.df).getLines.map(_.split("\t")).drop(1)
+    val lpwriter = new PrintWriter(new FileWriter(gPms.op+fln+c+".txt"))
+    tp.map(i => i(0) +"\t"+ calculation.linearPval(i,yyy,mcol._1)).foreach(lpwriter.println(_))
+    val gwriter = new PrintWriter(new FileWriter(gPms.op+fln + c + ".glist"))
+
+    val awriter = new PrintWriter(new FileWriter(gPms.op+ fln + c + ".map"))
+    val pwriter = new PrintWriter(new FileWriter(gPms.op+fln+ c + ".ped"))
+
+    //val fwriter = new PrintWriter(new FileWriter(gPms.op+"gbmsnp6pakt308chr" + c + ".fam"))
+    gp.foreach(i => gwriter.println(i.slice(0,4).mkString(" ")))
+    for (i <- 0 until mcol._1.length) {
+      var pi = mcol._2.apply(i)
+      var gi = mcol._1.apply(i)
+      val ip1 = Array("id2_" + i, "id1_" + i, 0, 0, 0, pakt(pi))
+      val ip2 =  tp.map(_ (gi)).map(_ match { case "0" => "1 1"; case "1" => "1 2"; case "2" => "2 2" })
+
+      val ip = ip1++ip2
+      pwriter.println(ip.mkString("\t"))
+      //fwriter.println(ip1.mkString("\t"))
+
+    }
+//    val aa = scala.io.Source.fromFile(gPms.op+"snp6Annot.csv").getLines.dropWhile(_.startsWith("#")).
+//      map(_.split("\" \"").map(_.replace("\"","")).slice(0,2)).map(i => (i(1),pval.getOrElse(i(0),-1f))).
+//      filter(_._2 != -1f).filter(_._1.startsWith("rs")).map(i => i._1 + "\t"+i._2).foreach(lpvwriter.println)
+    //while(c < 23){
+    for (lin <- ap){
+      val ipp = Array(lin(1),lin(0),"0",lin(2))
+      awriter.println(ipp.mkString("\t"))
+    }
+    val vegas2c = vegas2.vegas2v2.replace("fullexample",gPms.op+fln + c).replace("example",fln+ c)
+    gwriter.close()
+    lpwriter.close()
+    pwriter.close()
+    //fwriter.close()
+    awriter.close()
+    Process(vegas2.tobed.replace("ex_CEU",fln+c),new java.io.File(gPms.op)).!!
+    Process(vegas2c,new java.io.File(gPms.op)).!!
+    c += 1
+  }
+
   val yyy = mcol._2.map(pakt(_).toFloat)
   val xxx = scala.io.Source.fromFile(gPms.op+gPms.df).getLines.map(_.split("\t")).drop(1)
   val pval = xxx.map(i => i(0) -> calculation.linearPval(i,yyy,mcol._1)).toMap
