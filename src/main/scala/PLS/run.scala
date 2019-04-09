@@ -123,15 +123,15 @@ object run extends App {
     val pff = gPms.op + gPms.pf
     //  val pff = gPms.op+ "tcga_gbmlgg_rppa_rnaseq.txt"
     //  val pff = gPms.op+ "LGG.rppa.txt"
-    //    val eff = gPms.op+gPms.ef
-    val eff = ""
+        val eff = gPms.op+gPms.ef
+    //val eff = ""
     //    val eff = gPms.op+"tcga_gbmlgg_rnaseq.txt"
 
     if (false) {
       val xx = scala.io.Source.fromFile(gPms.op + gPms.df).getLines.map(_.split("\t")).take(1).toArray.flatten
       val yy = scala.io.Source.fromFile(gPms.op + gPms.pf).getLines.map(_.split("\t")).take(1).toArray.flatten.map(_.slice(0, 15))
       val ee = scala.io.Source.fromFile(gPms.op + gPms.ef).getLines.map(_.split("\t")).take(1).toArray.flatten.map(_.slice(0, 15))
-      val mcol = fileOper.intersectCols(xx, yy)
+      val mcol = fileOper.intersectCols(xx, yy,ee)
 
       val pakt = fileOper.toArrays(gPms.op + gPms.pf).filter(_ (0).contains("AKT")).toArray.apply(1)
       val yyy = mcol._2.map(pakt(_).toFloat)
@@ -153,7 +153,7 @@ object run extends App {
     val ch = Array(1 to 22: _*).map(_.toString)
     val orderpms = snpCalcOrderActor.orderPms(k = 3, nactor = 7, dfile = dff, pfile = pff, efile = eff)
     val srt = system.actorOf(snpCalcOrderActor.props(orderpms), "srt")
-    srt ! snpCalcOrderActor.yArray(pakt.slice(1, 3))
+    srt ! snpCalcOrderActor.yArray(pakt.slice(1, 2))
     srt ! snpCalcOrderActor.chrs(ch)
 
 
